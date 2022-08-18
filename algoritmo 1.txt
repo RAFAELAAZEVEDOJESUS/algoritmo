@@ -1,0 +1,9 @@
+algoritmo calculoMinutos;
+Inicio
+	inteiro horas;
+	inteiro minutos;
+	escreva("Usuario, por favor, digite a quantidade horas");
+	leia(horas);
+	minutos = horas * 60;
+	escreva("A quantidade de minutos é", minutos);
+Fim
