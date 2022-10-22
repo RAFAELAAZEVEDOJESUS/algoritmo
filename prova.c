@@ -12,6 +12,8 @@ printf("Aluno: Maria Rafaela A. A. de Jesus./n");
 printf("link Git: https://github.com/RAFAELAAZEVEDOJESUS/algoritmo");
 printf("VS CODE")
 
+A
+
 
 
 
