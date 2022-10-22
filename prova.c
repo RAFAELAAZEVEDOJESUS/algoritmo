@@ -4,7 +4,17 @@
 
 int main (){
 setlocale(LC_ALL, "Portuguese");
+
 /*
+printf("Curso: Algoritmo e programacao./n");
+printf("Professor: Joyce Siqueira./n");
+printf("Aluno: Maria Rafaela A. A. de Jesus./n");
+printf("link Git: https://github.com/RAFAELAAZEVEDOJESUS/algoritmo");
+printf("VS CODE")
+
+
+
+
 char alternativas ='\0';
 
 
