@@ -1,7 +1,0 @@
-#include<stdio.h> //biblioteca para comandos printf e scanf
-int main (){ 
-    // inicio do algoritmo 
-int horas, minutos, segundos;
-
-printf("Digite a quantidade de horas");
-scanf("%d", &horas);

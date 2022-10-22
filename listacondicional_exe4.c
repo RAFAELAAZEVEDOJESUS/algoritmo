@@ -1,25 +1,20 @@
 #include <stdio.h>
 
 int main() {
+  float salario, prestacao, percentual;
 
-float salario;
-float prestacao;
+  printf("Informe o salario: R$ ");
+  scanf("%f", &salario);
 
-printf(" Digite o valor do salario:");
-scanf("%f", &salario);
+  printf("Informe o valor da prestacao: R$ ");
+  scanf("%f", &prestacao);
 
-printf("Digite o valor do emprestimo:");
-scanf("%f", &prestacao);
+  percentual = (prestacao / salario) * 100;
 
-if(prestacao > (0.2 * salario)){
-printf("Emprestimo nao concedido"); 
+  printf("\nA prestacao corresponde a %.2f%% do salario.", percentual);
 
-}else{
-    printf("Emprestimo concedido");
-}
-
-
-
-
-
+  if (percentual > 20.0)
+     printf("\nEmprestimo nao pode ser concedido.");
+  else
+     printf("\nEmprestimo pode ser concedido.");
 }
