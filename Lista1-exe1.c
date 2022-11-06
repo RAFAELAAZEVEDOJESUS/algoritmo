@@ -1,7 +1,6 @@
-//contrua um algoritmo que leia um numero inteiro de horas 
-//ao usuario o correspondente em minutos e segundos 
+#include <stdio.h>
 
-#include<stdio.h> //biblioteca para comandos printf e scanf
+ //biblioteca para comandos printf e scanf
 int main (){ 
     // inicio do algoritmo 
 int horas, minutos, segundos;
@@ -16,14 +15,3 @@ printf("segundos: %d", horas * 3600);
  
 }
 //fim
-
-
-
-
-
-
-
-
-
-
-
