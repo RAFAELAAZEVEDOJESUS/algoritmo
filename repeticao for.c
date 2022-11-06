@@ -9,7 +9,7 @@ int main(){
     for (i=0; i<5; i++){
 
     
-    printf("Digite um numero1:");
+    printf("Digite um numero1:"); 
     scanf("%i", &n1);
 
     printf("Digite um numero2:");
