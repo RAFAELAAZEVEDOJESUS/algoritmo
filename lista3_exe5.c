@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+/*5. Faça o mesmo exercício, porém, realizando o calculo dentro do print*/
+
 int main(){
 	
 	int main(){
