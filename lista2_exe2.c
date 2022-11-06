@@ -5,6 +5,9 @@ int main(){
     char*locale;
     locale = setlocale (LC_ALL, "Portuguese");
 
+    /* 2. Faça um programa que leia dois números e mostre o maior deles. Se, por acaso, os dois
+    números forem iguais, imprima a mensagem “Números iguais”*/
+
     int n1=0;
     int n2=0;
 

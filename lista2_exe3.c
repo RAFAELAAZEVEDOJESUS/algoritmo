@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*3. Faça um programa que leia um número inteiro e verifique se esse número é par ou
+ímpar.*/
+
 int main(){
 
 int n1;

@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/*9. Faça um programa que leia a altura e o peso de uma pessoa.De acordo com a tabela abaixo,
+verifique e mostre qual a classificação dessa pessoa.
+    ALTURA              PESO
+                        ATÉ 60      ENTRE 60 - 90       ACIMA 90.
+    Menor que 1.20        A             D                   G
+    1.20 - 1.70           B             E                   H
+    Maior que 1.70        C             F                   I   */
+
  int main(){
 
   float altura;
@@ -8,7 +16,7 @@
   printf("Digite uma altura:");
   scanf("%f", &altura);
 
-  printf("Digite um peso");
+  printf("Digite um peso:");
   scanf("%f",&peso);
 
     
