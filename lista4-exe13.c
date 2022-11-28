@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*Escreva um programa que leia um numero inteiro, maior ou igual a zero, do usuario.
+Imprima o enésimo termo da sequencia de Fibonacci. Essa sequencia começa no termo de ordem zero, e 
+a partir do segundo termo, seu valor é dado pela soma dos dois termos anteriores. 
+alguns termos dessa sequencia são: 0,1,1,2,3,5,8,13,21 e 34.*/
 
 int main() {
 	int n1;

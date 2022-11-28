@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <math.h>
 
  /*15. Apresente um programa que calcule o valor de qualquer Hn. Em matemática, o número
 harmônico designado por Hn define-se como o enésimo termo da série harmônica. Ou
-seja:
-*/
+seja: 
+          Hn = + 1 + 1 + 1... + 1
+                 2   3   4      n              */
 int main(){
     float numHarmonico;
     int i, n;
